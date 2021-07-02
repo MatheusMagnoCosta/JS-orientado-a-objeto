@@ -1,25 +1,5 @@
-class Cliente {
-    nome;
-    cpf;
-}
-
-class ContaCorrente {
-    agencia;
-    saldo = 0;
-
-    sacar(valor) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor;
-        }
-    }
-
-    depositar(valor) {
-        if (valor > 0) {
-            this.saldo += valor;
-        }
-
-    }
-}
+import { Cliente } from "./Cliente.js";
+import { ContaCorrente } from "./ContaCorrente.js";
 
 const cliente1 = new Cliente();
 
@@ -31,7 +11,9 @@ const contaCorrenteMatheus = new ContaCorrente();
 contaCorrenteMatheus.agencia = "1001";
 
 
-contaCorrenteMatheus.depositar(100);
-contaCorrenteMatheus.sacar(50);
+contaCorrenteMatheus.depositar(200);
+const valorSacado = contaCorrenteMatheus.sacar(50);
 
+
+console.log(valorSacado);
 console.log(contaCorrenteMatheus);

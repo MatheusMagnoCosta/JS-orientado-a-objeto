@@ -1,0 +1,23 @@
+{
+    "name": "bytebank",
+    "version": "1.0.0",
+    "description": "Projeto conta bancaria",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mathewsmag/JS-orientado-a-objeto.git"
+    },
+    "keywords": [
+        ""
+    ],
+    "author": "Matheus",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mathewsmag/JS-orientado-a-objeto/issues"
+    },
+    "homepage": "https://github.com/Mathewsmag/JS-orientado-a-objeto#readme",
+    "type": "module"
+}
